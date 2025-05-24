@@ -400,9 +400,10 @@ document.addEventListener("DOMContentLoaded", () => {
         editForm.querySelector(".close-modal").addEventListener("click", () => {
           editStudentModal.style.display = "none"
         })
-        
+
         editStudentModal.style.display = "block"
       })
+      
       .catch((error) => {
         console.error("Error:", error)
         alert("Đã xảy ra lỗi: " + error.message)

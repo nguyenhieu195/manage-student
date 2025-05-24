@@ -2,6 +2,7 @@ import * as Major from "../models/Major.js"
 
 // Lấy tất cả ngành học
 export async function getAllMajors(req, res) {
+  
   try {
     const majors = await Major.getAllMajors()
     res.status(200).json(majors)

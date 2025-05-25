@@ -53,6 +53,7 @@ async function updateMajor(id, majorData) {
     throw error
   }
 }
+
 // Xóa ngành học
 async function deleteMajor(id) {
   try {

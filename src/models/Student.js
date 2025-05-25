@@ -68,6 +68,7 @@ async function updateStudent(id, studentData) {
                  email = ?, phone = ?, address = ?, major = ?, class_name = ?, 
                  enrollment_year = ?, gpa = ?, updated_at = CURRENT_TIMESTAMP
              WHERE id = ?`
+
     const params = [
       studentData.student_id,
       studentData.full_name,

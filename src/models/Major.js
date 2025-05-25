@@ -36,7 +36,6 @@ async function createMajor(majorData) {
       majorData.name,
       majorData.department,
     ])
-
     return { id: result.insertId, ...majorData }
   } catch (error) {
     throw error
